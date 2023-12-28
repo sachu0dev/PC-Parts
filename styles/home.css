@@ -1,0 +1,87 @@
+.feature{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.next-feature{
+  width: 20px;
+  padding: 0 20px;
+}
+.next-feature i{
+  font-size: 2vw;
+}
+.home-product1{
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  height: 30vw;
+  width: 100%; 
+  flex-direction: row;
+  padding: 20px 40px;
+  flex: 1;
+  background-image: url("acer-backgournd.avif");
+  margin-bottom: 50px;
+  border-radius: 20px;
+  border: 2px solid rgb(209, 209, 209);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.product1-specification{
+  font-size: 1.3vw;
+  color: rgb(84, 84, 84);
+}
+.product1-more button{
+  font-size: 1.3vw;
+  font-weight: 600;
+  background-color: rgb(54, 99, 233);
+  padding: 12px 20px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+
+}
+.home-product1-text{
+  display: flex;
+  flex-direction: column;
+  font-size: 3.8vw;
+  height: 500px;
+  width: 55%;
+  font-weight: 800;
+  color: white;
+}
+.home-product1-text span{
+  color: rgb(255, 47, 0);
+}
+.home-product1-text img{
+  width: 4vw;
+}
+.home-product-img{
+  width: 45%;
+}
+.home-product-img img{
+  width: 30vw;
+  height: inherit;
+}
+.featured{
+  font-size: 2.5vw;
+  font-weight: 800;
+  color: #f97432;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+.featured span{
+  color: black;
+}
+@media (max-width: 600px){
+  .next-feature{
+    padding: 0 10px;
+  }
+  .next-feature i{
+    font-size: 5vw;
+  }
+  .featured{
+    font-size: 5vw;
+    padding-left: 13px;
+    padding-bottom: 20px;
+  }
+}

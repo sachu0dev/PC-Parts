@@ -106,10 +106,17 @@ main{
   }
   .product{
     width: 40vw;
-    height: 62vw;
+    height: 70vw;
   }
   .product img{
     width: 180px;
     margin-bottom: 1vw;
+  }
+  .product-name{
+    font-size: 4vw;
+  }
+  .product-price{
+    font-size: 4vw;
+    color: green;
   }
 }
