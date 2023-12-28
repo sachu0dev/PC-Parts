@@ -1,0 +1,96 @@
+footer{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.credits{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(239, 61, 21);
+  margin: 20px 50px;
+  padding: 40px 50px;
+  border-radius: 30px;
+  height: 25vw;
+}
+.left-credits{
+  width: 45%;
+  height: 25vw;
+}
+.left-credits div{
+  font-size: 2.2vw;
+  margin: 0;
+  font-weight: 800;
+  color: white;
+}
+.left-credits h4{
+  font-size: 1.2vw;
+  color: rgb(225, 202, 197);
+  margin-bottom: 50px;
+}
+.credits img{
+  width: 55%;
+}
+.credits button{
+  font-size: 1.6vw;
+  color: rgb(239, 61, 21);
+  background-color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+@media (max-width: 600px){
+  .credits{
+    margin: 20px 15px;
+    border-radius: 20px;
+    height: 35vw;
+    padding: 20px 25px;
+  }
+  .left-credits div{
+    font-size: 3.3vw;
+  }
+  .left-credits h4{
+    font-size: 2.2vw;
+    color: rgb(225, 202, 197);
+    margin-bottom: 10px;
+  }
+  .credits button{
+    font-size: 2vw;
+  }
+}
+
+.main.footer{
+  display: flex;
+  align-items: center;
+  background-color: rgb(15, 15, 15);
+  width: 100%;
+  flex-direction: row;
+}
+.left-footer{
+  flex: 1;
+  padding: 20px 50px;
+  padding-bottom: 70px;
+  width: 25%;
+  background-color: rgb(29, 29, 29);
+  overflow: none;
+  color: white;
+}
+.left-footer h3{
+  font-size: 1.7vw;
+  margin: 15px 0px;
+}
+.left-footer h4{
+  font-size: 0.9vw;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.left-footer i{
+  font-size: 2vw;
+  margin-right: 10px;
+}
+.left-middle-footer{
+  width: 25%;
+  background-color: rgb(29, 29, 29);
+}
